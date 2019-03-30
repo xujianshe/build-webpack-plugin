@@ -1,0 +1,48 @@
+{
+    "name": "webpacktest",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest",
+      "start": "webpack --mode development"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@babel/core": "^7.1.2",
+      "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+      "@babel/preset-env": "^7.1.0",
+      "@babel/preset-react": "^7.0.0",
+      "babel-core": "^7.0.0-bridge.0",
+      "babel-jest": "^23.6.0",
+      "babel-loader": "^8.0.4",
+      "jest": "^23.6.0",
+      "lodash": "^4.17.11",
+      "node-cmd": "^3.0.0",
+      "pkg-up": "^2.0.0",
+      "read-pkg": "^4.0.1",
+      "resolve-pkg": "^1.0.0",
+      "webpack": "^4.23.1",
+      "webpack-cli": "^3.1.2",
+      "seismic-article": "1.2.1-develop.16",
+      "styled-components": "3.2.6"
+    },
+    "jest": {
+      "transform": {
+        "^.+\\.jsx?$": "babel-jest"
+      }
+    },
+    "dependencies": {
+      "lodash": "^4.17.11",
+      "react": "^15.6.1",
+      "react-dom": "^15.6.1",
+      "styled-components": "3.2.6"
+    },
+    "seismicDependencies": {
+      "toolkit": "^3.0.0",
+      "fullBoudle": "^4.0.0",
+      "seismicMyTestModule": "^2.0.0"
+    }
+  }
+  

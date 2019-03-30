@@ -1,0 +1,23 @@
+{
+  "name": "seismic-build-webpack-plugin",
+  "version": "1.0.25",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test/integration/webpack3 && npm run test",
+    "prepush": "npm run test"
+  },
+  "files": [
+    "plugins",
+    "index.js"
+  ],
+  "author": "byron xu",
+  "license": "ISC",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "resolve-pkg": "^1.0.0"
+  }
+}
